@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
         return res.end('Criação de usuários')
     }
     
-    return res.end('Caiu aqui')
+    return res.end('Sem rota')
 })
 
 server.listen(3333)
